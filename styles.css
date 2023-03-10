@@ -1,0 +1,109 @@
+/*generales*/
+
+* {
+    color: white;
+    margin: 4px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+
+
+.arriba__ilogo {
+    background-color: black;
+    display: inline-block
+}
+
+.arriba__nlogo {
+    font-size: 1000%;
+    font-family: 'Babylonica', "cursive";
+    font-family: 'Cedarville Cursive', "cursive";
+    font-family: 'Sassy Frass', "cursive";
+    font-style: italic;
+    display: inline;
+    position: absolute;
+    top: 13px;
+    left: 350px;
+}
+
+
+/*index*/
+.seccionuno {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+
+        "textouno imagenuno"
+        "textodos imagendos";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.txt1 {
+    grid-area: textouno;
+
+}
+
+.ima1 {
+    grid-area: imagenuno;
+
+}
+
+.txt2 {
+    grid-area: textodos;
+
+}
+
+.ima2 {
+    grid-area: imagendos;
+
+}
+
+
+
+
+
+
+
+/*formularios*/
+
+
+.sf {
+    flex-direction: column;
+}
+
+
+.sf input {
+    color: black;
+    ;
+}
+
+select {
+    color: black;
+}
+
+.opt1 {
+    color: black;
+}
+
+.opt2 {
+    color: black;
+}
+
+.txta {
+    color: black;
+}
+
+.fi input {
+    color: black;
+}
